@@ -52,6 +52,9 @@ $(function(){
                     });
             });
             
+        },
+        error: function() {
+            $(".main").append("There was an error").addClass("error");
         }
     })
     //Filtrar busqueda por teclado
